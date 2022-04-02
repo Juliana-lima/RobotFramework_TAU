@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.7 on win32)" generated="20220402 00:28:31.243" rpa="false" schemaversion="2">
+<suite id="s1" name="Keyword-Basics" source="D:\TAU\Robot_Framework\RobotFramework_TAU\exercise-06\keyword-basics.robot">
+<test id="s1-t1" name="Check invoice manager page">
+<kw name="Comment" library="BuiltIn">
+<arg>We're learning how to create a custom keyword.</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<status status="PASS" starttime="20220402 00:28:31.452" endtime="20220402 00:28:31.452"/>
+</kw>
+<kw name="Navigate to Home Page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://34.225.240.91/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220402 00:28:31.452" level="INFO">Opening browser 'chrome' to base url 'http://34.225.240.91/'.</msg>
+<status status="PASS" starttime="20220402 00:28:31.452" endtime="20220402 00:28:34.299"/>
+</kw>
+<status status="PASS" starttime="20220402 00:28:31.452" endtime="20220402 00:28:34.299"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Invoice Manager</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20220402 00:28:34.329" level="INFO">Current page contains text 'Invoice Manager'.</msg>
+<status status="PASS" starttime="20220402 00:28:34.300" endtime="20220402 00:28:34.329"/>
+</kw>
+<status status="PASS" starttime="20220402 00:28:31.452" endtime="20220402 00:28:34.330"/>
+</test>
+<status status="PASS" starttime="20220402 00:28:31.243" endtime="20220402 00:28:34.332"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Keyword-Basics">Keyword-Basics</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
